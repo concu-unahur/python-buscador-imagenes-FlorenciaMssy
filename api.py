@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import sys
 
 class PixabayAPI:
   def __init__(self, key, carpeta_imagenes):
